@@ -65,8 +65,9 @@ public class Circus {
         printAllAnimals(animalArrayList);
 
         Cage<Duck> duckCage = new Cage<>();
-        Duck duck = new Duck("Drake");
+        Duck duck = new Duck("Donald");
         duckCage.lockUp(duck);
+
         Parrot parrot = new Parrot("Polly");
         Cage<Parrot> parrotCage = new Cage<>();
         parrotCage.lockUp(parrot);
